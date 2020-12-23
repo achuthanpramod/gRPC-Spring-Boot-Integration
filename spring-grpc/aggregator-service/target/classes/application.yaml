@@ -1,0 +1,7 @@
+server:
+  port: 8080
+grpc:
+  client:
+    calculator-service:
+      address: dns:///calculation-service.grpc-apps.svc.cluster.local:6565
+      negotiationType: plaintext
